@@ -7,7 +7,9 @@ import userRoutes from "./routes/userRoutes";
 const app = express();
 
 mongoose
-  .connect("mongodb://localhost/task4")
+  .connect(
+    "mongodb+srv://jamshidkhuja:j20011703b@cluster0.tuylk.mongodb.net/?retryWrites=true&w=majority"
+  )
   .then(() => console.log("DB conecction successful"));
 
 app.use(express.json());
