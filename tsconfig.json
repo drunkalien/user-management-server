@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"target": "ES2020",
+		"allowJs": true,
+		"module": "CommonJS",
+		"allowSyntheticDefaultImports": true,
+		"moduleResolution": "node",
+		"rootDir": "./",
+		"esModuleInterop": true,
+		"strict": true,
+		"outDir": "dist",
+		"baseUrl": ".",
+		"paths": {
+			"*": [
+				"node_modules/*",
+				"types"
+			]
+		}
+	},
+	"include": [
+		"."
+	]
+}
